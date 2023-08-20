@@ -69,3 +69,9 @@
     }
   }
 }
+
+@media (max-width: 576px) {
+  .collection img {
+    height: 200px;
+  }
+}

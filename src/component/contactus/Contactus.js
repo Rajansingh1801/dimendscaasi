@@ -36,7 +36,7 @@ const Contactus = () => {
               <button>Sign up</button>
             </div>
           </div>
-          <div className="flex-1 cont-img ">
+          <div className="flex-1 cont-img">
             <div className="flex justify-between">
               <img src={img1} alt="" className="p-1" />
               <img src={img2} alt="" className="p-1" />

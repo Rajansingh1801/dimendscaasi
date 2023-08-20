@@ -193,7 +193,7 @@ const AnimationContainer = () => {
   return (
     <div className="anim-cont">
       <div className="anim-rotator">{animItems}</div>
-      <div className="toplogo flex justify-between px-24">
+      <div className="toplogo flex justify-between px-24 lg:flex hidden">
         <div className="flex items-center">
           <img src={inq} alt="" className="w-8" />
           <p className="ps-5 fw-400">Inquiry</p>

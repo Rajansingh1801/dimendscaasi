@@ -19,7 +19,7 @@ import "./style.css";
 const Explore = () => {
   return (
     <>
-      <div className="explore px-20 py-20 text-center">
+      <div className="explore lg:px-20 px-5 py-20 text-center">
         <h3>Explore Loose Diamonds</h3>
         <p>
           Every diamond in our collection is selected for its <br /> superior

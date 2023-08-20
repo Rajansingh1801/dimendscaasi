@@ -59,6 +59,20 @@
     padding-top: 50px !important;
   }
 }
+@media (max-width: 768px) {
+  .anim-item.active h1 {
+    font-size: 50px !important;
+  }
+  .anim-item.active h3 {
+    font-size: 24px !important;
+    padding-top: 50px !important;
+  }
+}
+@media (max-width: 576px) {
+  .anim-item.active h1 {
+    font-size: 40px !important;
+  }
+}
 
 .anim-item {
   position: absolute;

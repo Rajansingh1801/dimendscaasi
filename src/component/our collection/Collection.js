@@ -18,7 +18,7 @@ const Collection = () => {
         </p>
 
         <div className="flex card-body justify-between">
-          <div className="flex-1 card m-2">
+          <div className="flex-1 card sm:m-2 m-1">
             <div>
               <img src={c1} alt="" />
             </div>
@@ -27,7 +27,7 @@ const Collection = () => {
               <p>Every Diamond in our collection</p>
             </div>
           </div>
-          <div className="flex-1 card m-2">
+          <div className="flex-1 card sm:m-2 m-1">
             <div>
               <img src={c2} alt="" />
             </div>
@@ -36,7 +36,7 @@ const Collection = () => {
               <p>Every Diamond in our collection</p>
             </div>
           </div>
-          <div className="flex-1 card m-2">
+          <div className="flex-1 card sm:m-2 m-1">
             <div>
               <img src={c3} alt="" />
             </div>
@@ -45,7 +45,7 @@ const Collection = () => {
               <p>Every Diamond in our collection</p>
             </div>
           </div>
-          <div className="flex-1 card m-2">
+          <div className="flex-1 card sm:m-2 m-1">
             <div>
               <img src={c4} alt="" />
             </div>

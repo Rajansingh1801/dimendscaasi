@@ -41,8 +41,7 @@ footer nav ul li {
 footer .logos img {
   -o-object-fit: contain;
      object-fit: contain;
-  aspect-ratio: 2/2;
-  padding: 0px 10px;
+  padding: 0px 20px;
 }
 footer .dec {
   color: #929292;
@@ -51,4 +50,10 @@ footer .dec {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .desc p {
+    font-size: 18px !important;
+  }
 }/*# sourceMappingURL=style.css.map */

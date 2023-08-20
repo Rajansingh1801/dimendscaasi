@@ -17,7 +17,7 @@ const Footer = () => {
     <>
       <footer className="text-center lg:px-24 px-6">
         <div className="flex justify-center">
-          <img src={logo} alt="" />
+          <img src={logo} alt="" className="foot-logo" />
         </div>
         <p className="year">20+ Years Of Trust</p>
         <div className="desc">

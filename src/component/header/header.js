@@ -11,7 +11,7 @@ import user2 from "../../assets/icons/user2.png";
 import { CaretDown } from "@phosphor-icons/react";
 
 const Header = () => {
-  const [hide, sethide] = useState(true);
+  const [hide, sethide] = useState(false);
   const open = () => {
     sethide(true);
   };

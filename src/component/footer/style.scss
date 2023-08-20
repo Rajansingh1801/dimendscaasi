@@ -41,8 +41,8 @@ footer {
   .logos {
     img {
       object-fit: contain;
-      aspect-ratio: 2/2;
-      padding: 0px 10px;
+      // aspect-ratio: 2/2;
+      padding: 0px 20px;
     }
   }
   .dec {
@@ -52,5 +52,11 @@ footer {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .desc p {
+    font-size: 18px !important;
   }
 }
