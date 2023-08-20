@@ -1,8 +1,10 @@
 .cont-img img {
-  max-width: 100%;
-  max-width: 100%;
-  //   width: 322px;
-  //   height: 322px;
+  width: 300px;
+  height: 300px;
+  @media (max-width: 1300px) {
+    width: 250px;
+    height: 250px;
+  }
 }
 .cont-form h5 {
   color: #151515;

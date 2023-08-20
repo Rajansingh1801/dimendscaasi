@@ -37,11 +37,11 @@ const Contactus = () => {
             </div>
           </div>
           <div className="flex-1 cont-img">
-            <div className="flex justify-between">
+            <div className="flex justify-center">
               <img src={img1} alt="" className="p-1" />
               <img src={img2} alt="" className="p-1" />
             </div>
-            <div className="flex justify-between">
+            <div className="flex justify-center">
               <img src={img3} alt="" className="p-1" />
               <img src={img4} alt="" className="p-1" />
             </div>

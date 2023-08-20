@@ -76,4 +76,21 @@ nav ul li {
   .menu {
     display: block;
   }
+  .list-before {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .menu {
+    width: 20px;
+    height: 20px;
+  }
+  .other-loog img {
+    width: 20px;
+    height: 20px;
+  }
+  .logo-img {
+    height: 30px;
+    width: 150px;
+  }
 }/*# sourceMappingURL=style.css.map */

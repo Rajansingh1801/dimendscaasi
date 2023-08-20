@@ -11,7 +11,8 @@ import user2 from "../../assets/icons/user2.png";
 import { CaretDown } from "@phosphor-icons/react";
 
 const Header = () => {
-  const [hide, sethide] = useState(true);
+  const [hide, sethide] = useState();
+
   const open = () => {
     sethide(true);
   };
@@ -28,6 +29,42 @@ const Header = () => {
         <div>
           <img src={logo} alt="" className="img-fluid logo-img" id="open" />
         </div>
+        <div className="list-before">
+          <div
+            className="close-icon lg-hidden lg:hidden"
+            onClick={close}
+            id="close"
+          >
+            <img src={closeicon} alt="" />
+          </div>
+          <ul className="flex">
+            <li>
+              Diamonds <CaretDown size={20} className="lg-hidden lg:hidden" />
+            </li>
+            <li className="font-bold">
+              Accessories{" "}
+              <CaretDown size={20} className="lg-hidden lg:hidden" />
+            </li>
+            <li>
+              Fine Jewelry{" "}
+              <CaretDown size={20} className="lg-hidden lg:hidden" />
+            </li>
+            <li>
+              Watches <CaretDown size={20} className="lg-hidden lg:hidden" />
+            </li>
+            <hr className="my-4" />
+            <div className="toplogo flex flex-col lg-hidden lg:hidden">
+              <div className="flex items-center">
+                <img src={inq} alt="" className="w-8" />
+                <p className="ps-5 fw-400">Inquiry</p>
+              </div>
+              <div className="flex items-center">
+                <img src={user2} alt="" className="w-8" />
+                <p className="ps-5 fw-400">Feedback</p>
+              </div>
+            </div>
+          </ul>
+        </div>
         {hide ? (
           <div className="list">
             <div
@@ -39,18 +76,18 @@ const Header = () => {
             </div>
             <ul className="flex">
               <li>
-                Diamonds <CaretDown size={32} className="lg-hidden lg:hidden" />
+                Diamonds <CaretDown size={20} className="lg-hidden lg:hidden" />
               </li>
               <li className="font-bold">
                 Accessories{" "}
-                <CaretDown size={32} className="lg-hidden lg:hidden" />
+                <CaretDown size={20} className="lg-hidden lg:hidden" />
               </li>
               <li>
                 Fine Jewelry{" "}
-                <CaretDown size={32} className="lg-hidden lg:hidden" />
+                <CaretDown size={20} className="lg-hidden lg:hidden" />
               </li>
               <li>
-                Watches <CaretDown size={32} className="lg-hidden lg:hidden" />
+                Watches <CaretDown size={20} className="lg-hidden lg:hidden" />
               </li>
               <hr className="my-4" />
               <div className="toplogo flex flex-col lg-hidden lg:hidden">
@@ -65,9 +102,7 @@ const Header = () => {
               </div>
             </ul>
           </div>
-        ) : (
-          false
-        )}
+        ) : null}
 
         <div className="flex items-center other-loog">
           <div>
