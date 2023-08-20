@@ -1,0 +1,87 @@
+.cont-img img {
+  max-width: 100%;
+  max-width: 100%;
+}
+
+.cont-form h5 {
+  color: #151515;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cont-form p {
+  line-break: normal;
+  padding-top: 46px;
+  color: #929292;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cont-form input {
+  margin-top: 70px;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #929292;
+  color: #929292;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 7px;
+}
+
+.cont-form input:focus {
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #929292;
+}
+
+.cont-form button {
+  border-radius: 40px;
+  margin-top: 60px;
+  padding: 10px 80px;
+  background-color: #151515;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media (max-width: 992px) {
+  .cont-img {
+    display: none;
+  }
+  .contact-container {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .contact-container img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
+@media (max-width: 576px) {
+  .contact-container img {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}/*# sourceMappingURL=style.css.map */

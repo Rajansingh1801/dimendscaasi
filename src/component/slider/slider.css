@@ -1,0 +1,151 @@
+.anim-cont {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  user-select: none;
+}
+
+.anim-rotator {
+  position: absolute;
+  top: 30vh;
+  left: calc(50% - 100vh);
+  width: 200vh;
+  height: 200vh;
+  border-radius: 50%;
+  /* border: 1px solid black; */
+}
+@media (max-width: 1200px) {
+  .anim-rotator {
+    width: 100vh;
+    height: 100vh;
+    left: calc(50% - 100vh);
+  }
+  .anim-item.active h1 {
+    font-size: 100px !important;
+  }
+  .anim-item.active img {
+    max-width: 400.954px !important;
+    height: 200px !important;
+    top: -100px;
+  }
+  .anim-item.active h3 {
+    font-size: 30px;
+    padding-top: 100px;
+  }
+  .anim-item.active h5 {
+    font-size: 20px;
+  }
+  .anim-item.active p {
+    font-size: 16px;
+  }
+  .anim-item.active button {
+    border-radius: 40px;
+    margin-top: 60px;
+    padding: 10px 20px !important;
+    font-size: 16px;
+  }
+  .anim-cont .social-icon {
+    left: 5% !important;
+    bottom: 40px;
+  }
+}
+@media (max-width: 992px) {
+  .anim-item.active h1 {
+    font-size: 70px !important;
+  }
+  .anim-item.active h3 {
+    font-size: 30px;
+    padding-top: 50px !important;
+  }
+}
+
+.anim-item {
+  position: absolute;
+  transform: translate(-50%, -23%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  color: white;
+}
+
+.anim-item-hidden {
+  visibility: hidden;
+}
+
+/* content  */
+.anim-item img {
+  max-width: 250px !important;
+  height: 250px;
+}
+
+.anim-item.active img {
+  max-width: 644.954px !important;
+  height: 350px;
+  position: absolute;
+  z-index: 2;
+  top: -100px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.anim-item.active h1 {
+  position: relative;
+  color: #e7e7e7;
+  font-family: Montserrat;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  white-space: nowrap;
+  line-height: normal;
+}
+.anim-item.active h3 {
+  color: #151515;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 100px;
+}
+.anim-item.active h5 {
+  color: #151515;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: fit-content;
+  border-top: 2px solid #e7e7e7;
+  padding: 16px 0px;
+}
+.anim-item.active p {
+  color: #d6d6d6;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.anim-item.active button {
+  border-radius: 40px;
+  margin-top: 60px;
+  padding: 17px 80px;
+  background-color: #151515;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.anim-cont .social-icon {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  bottom: 40px;
+}

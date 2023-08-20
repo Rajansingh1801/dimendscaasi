@@ -1,0 +1,80 @@
+.collection {
+  padding-top: 90px;
+}
+.collection h3 {
+  color: #151515;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+.collection p {
+  color: #929292;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.collection .card {
+  background-color: white;
+  padding-top: 60px;
+}
+.collection .card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.collection .card h5 {
+  color: #151515;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+@media (max-width: 768px) {
+  .collection .card h5 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 576px) {
+  .collection .card h5 {
+    font-size: 13px;
+    font-weight: 600;
+  }
+}
+.collection .card p {
+  color: #929292;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 768px) {
+  .collection .card p {
+    font-size: 12px;
+  }
+}
+.collection .container {
+  height: 350px;
+  width: 100vw;
+  background-color: #f7b79d;
+  z-index: 0;
+  margin-top: -255px;
+}
+@media (max-width: 768px) {
+  .collection .container {
+    height: 250px;
+    margin-top: -150px;
+  }
+}
+@media (max-width: 576px) {
+  .collection .container {
+    height: 150px;
+    margin-top: -130px;
+  }
+}/*# sourceMappingURL=style.css.map */

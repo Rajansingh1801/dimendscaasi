@@ -1,0 +1,56 @@
+footer {
+  padding: 60px 0px;
+  background-color: #f9f9f9;
+
+  .year {
+    padding-top: 10px;
+    color: #f7b79d;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .desc {
+    margin: 32px 0px;
+    p {
+      color: #929292;
+      font-family: Montserrat;
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  nav {
+    padding: 40px 0px;
+    ul {
+      li {
+        color: #929292;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        @media (max-width: 768px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .logos {
+    img {
+      object-fit: contain;
+      aspect-ratio: 2/2;
+      padding: 0px 10px;
+    }
+  }
+  .dec {
+    color: #929292;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
