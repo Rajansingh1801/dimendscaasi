@@ -72,9 +72,15 @@ nav {
   .lg-hidden {
     display: none;
   }
+  .menu {
+    display: none;
+  }
 }
 @media (max-width: 992px) {
   .lg-hidden {
+    display: block;
+  }
+  .menu {
     display: block;
   }
 }

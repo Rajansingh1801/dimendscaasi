@@ -11,7 +11,7 @@ import user2 from "../../assets/icons/user2.png";
 import { CaretDown } from "@phosphor-icons/react";
 
 const Header = () => {
-  const [hide, sethide] = useState(false);
+  const [hide, sethide] = useState(true);
   const open = () => {
     sethide(true);
   };
@@ -21,8 +21,8 @@ const Header = () => {
 
   return (
     <>
-      <nav className="flex justify-between items-center xlg:px-24 px-5 py-6">
-        <div className="lg:hidden menu">
+      <nav className="flex justify-between items-center xlg:px-24 lg:px-10 px-5 py-6">
+        <div className="menu">
           <img src={menu} alt="" onClick={open} />
         </div>
         <div>
